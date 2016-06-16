@@ -22,7 +22,6 @@ var api = new ParseServer({
   restAPIKey: process.env.REST_API_KEY || '', //** add this line
   dotNetKey: process.env.DOT_NET_KEY || '', //** add this line
   clientKey: process.env.CLIENT_KEY || '', //** add this line
-  fileKey: process.env.FILE_KEY || '', //** add this line
   liveQuery: {
     classNames: ["Posts", "Comments"] // List of classes to support for query subscriptions
   }
